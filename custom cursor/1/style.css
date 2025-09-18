@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy', sans-serif;
+}
+
+body,html {
+  background-color: #000000;
+  color: #ffffff;
+  height:100%;
+  width:100%
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#cursor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed; 
+     
+};
+/*not using absoulte it wont work in case we have multiple pages,
+ position: fixed is always positioned relative to the viewport (the visible browser window). */
+ 
+ 

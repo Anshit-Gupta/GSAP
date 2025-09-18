@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy', sans-serif;
+}
+
+body,html {
+  background-color: #000000;
+  color: #ffffff;
+  height:100%;
+  width:100%
+}
+body{
+    overflow-x: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://imgs.search.brave.com/fY2N849nujI1T6rh-MBGA2LaNH2p_tj7TOMdIvDAR5s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZGlq/aS1qb2ktaW4tYmxh/ZGUtcnVubmVyLTIw/NDktNGstZTJ5bHU5/eW53YXo4aHdlay5q/cGc");
+    background-size: cover;
+    
+}
+#nav{
+    padding: 8px 10px 0px 10px ;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 102, 255, 0.212);
+    color: rgba(255, 255, 255, 0.76);
+}
+h1{
+    font-size: 50px;
+}
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.519);
+    top:0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 80px 10px;
+    font-size: 50px;
+    
+}
+#full h4{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#full i{
+    position: absolute;
+    top:5%;
+    right:10%;
+   cursor: pointer;
+}
+
+
+
+
+
